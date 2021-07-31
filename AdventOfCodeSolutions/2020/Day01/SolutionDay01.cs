@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace AdventOfCodeSolutions._2020.Day01
 {
     public class SolutionDay01
     {
+        //Day 01 - Part 01
         public int ReturnExpenseReport(int[] input,int expenseSum = 2020)
         {
             int expense = 0;
@@ -26,6 +23,7 @@ namespace AdventOfCodeSolutions._2020.Day01
             return totalExp;
         }
 
+        //Day 01 - Part 02
         public int ReturnProductOfThreeEntries(int[] input, int expenseSum = 2020)
         {
             int totalExp = 0;
@@ -39,7 +37,7 @@ namespace AdventOfCodeSolutions._2020.Day01
                         for (int k = i + 2; k < input.Count(); k++)
                         {
                             int sumThreeNumbers = input[i] + input[j] + input[k];
-                            if (sumThreeNumbers==expenseSum)
+                            if (sumThreeNumbers == expenseSum)
                             {
                                 totalExp = input[i] * input[j] * input[k];
                             }

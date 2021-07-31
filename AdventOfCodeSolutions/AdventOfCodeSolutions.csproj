@@ -45,14 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2020\Day01\SolutionDay01.cs" />
+    <Compile Include="2020\Day02\SolutionDay02.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="2020\Day02\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="2020\Day01\input.txt" />
+    <Content Include="2020\Day02\input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
